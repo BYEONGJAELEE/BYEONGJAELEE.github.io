@@ -2,7 +2,7 @@
 layout: post
 title:  "[Spring Boot] 기본 구조 알아보기"
 date:   2018-06-10 00:47:25 +0900
-categories: SpringFramework
+categories: jekyll update
 ---
 
 - POJO ? 
