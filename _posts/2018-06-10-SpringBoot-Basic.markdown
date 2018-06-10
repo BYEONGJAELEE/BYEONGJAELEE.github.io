@@ -30,5 +30,4 @@ categories: jekyll update
         - 트랜잭션 관리나 메시지 기반의 다국어 처리 등 다양한 기능 지원.
     - bean에 등록된 모든 객체는 singleton으로 관리되고 있다.
 
-
-        ![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
+    ![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
