@@ -1,12 +1,18 @@
 
 title: turtle developer
+subtitle: "Slow & Steady can finish my life"
 email: littleprince0717@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   Hello. Enjoy your time. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://byeongjaelee.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: littleprince0717
 github_username:  BYEONGJAELEE
+name: Lee Byeongjae
+
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
 
 markdown: kramdown
 highlighter: rouge
@@ -21,4 +27,29 @@ navigation:
  - title: Contact
    url: /contact
 
-remote_theme : brianmaierjr/long-haul
+remote_theme : bencentra/centrarium
+
+highlightjs_theme: "monokai-sublime"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+
+protocols:
+    fb_image: "/assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "/assets/logo.png"
+
+    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:bencentra/centrarium.com.git"
