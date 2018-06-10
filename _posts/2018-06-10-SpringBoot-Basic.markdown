@@ -25,7 +25,7 @@ categories: jekyll update
     1. BeanFactory
         - 스프링 설정 파일(applicationContext.xml)에 등록된 bean 객체를 생성하고 관리하는 기능 제공.
         - 컨테이너가 구동될 때 객체를 생성하는 것이 아니라, 클라이언트로의 요청에 의해서만 객체를 생성함(Lazy Loading)
- 	2. ApplicationContext
+    2. ApplicationContext
         - 컨테이너가 구동되는 시점에 bean에 등록되어 있는 클래스를 객체화 함. ( Eager Loading)
         - 트랜잭션 관리나 메시지 기반의 다국어 처리 등 다양한 기능 지원.
     - bean에 등록된 모든 객체는 singleton으로 관리되고 있다.
