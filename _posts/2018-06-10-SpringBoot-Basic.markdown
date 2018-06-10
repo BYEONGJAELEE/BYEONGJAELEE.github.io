@@ -109,7 +109,7 @@ categories: jekyll update
 
 
 
-  # 포스팅 내용 참고 주소
+  @ 포스팅 내용 참고 주소
   - http://asfirstalways.tistory.com/334
   - https://docs.spring.io/autorepo/docs/spring/2.0.8/reference/beans.html  
 
