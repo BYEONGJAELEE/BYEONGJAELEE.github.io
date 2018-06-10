@@ -33,4 +33,4 @@ categories: jekyll update
     
     - bean에 등록된 모든 객체는 singleton으로 관리되고 있다.
 
-    <img src="{{ '/assets/img/managing_ springbean.jpg' | prepend: site.baseurl }}" alt=""> 
+    ![image](assets/img/managing_ springbean.jpg)
