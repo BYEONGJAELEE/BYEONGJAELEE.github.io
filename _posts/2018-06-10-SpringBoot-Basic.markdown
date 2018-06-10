@@ -22,7 +22,6 @@ categories: jekyll update
 
 - Container
     - Spring Framework에서는 BeanFactory와 이를 상속한 ApplicationContext 두 가지 유형의 컨테이너를 제공함.
-
     1. BeanFactory
         - 스프링 설정 파일(applicationContext.xml)에 등록된 bean 객체를 생성하고 관리하는 기능 제공.
         - 컨테이너가 구동될 때 객체를 생성하는 것이 아니라, 클라이언트로의 요청에 의해서만 객체를 생성함(Lazy Loading)
