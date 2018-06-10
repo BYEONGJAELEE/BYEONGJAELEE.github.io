@@ -33,4 +33,7 @@ categories: jekyll update
 	- <bean>에 등록된 모든 객체는 singleton으로 관리되고 있다.
 
     
-    ![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
+    ![image](_posts/managing_bean.png)
+
+
+
