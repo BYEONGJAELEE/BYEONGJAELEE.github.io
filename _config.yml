@@ -21,12 +21,4 @@ navigation:
  - title: Contact
    url: /contact
 
-social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
-
-google_analytics: "UA-58263416-1"
-
 remote_theme : brianmaierjr/long-haul
