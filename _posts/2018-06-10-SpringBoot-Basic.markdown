@@ -30,25 +30,6 @@ categories: jekyll update
  		A. 컨테이너가 구동되는 시점에 '\<'bean'\>'에 등록되어 있는 클래스를 객체화 함. ( Eager Loading) 
 		B. 트랜잭션 관리나 메시지 기반의 다국어 처리 등 다양한 기능 지원.
 
-	- <bean>에 등록된 모든 객체는 singleton으로 관리되고 있다. 
+	- <bean>에 등록된 모든 객체는 singleton으로 관리되고 있다.
+
 	    ![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
-
-
-
-
-
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
