@@ -2,23 +2,23 @@
 layout: post
 title:  "[Spring Boot] 기본 구조 알아보기"
 date:   2018-06-10 00:47:25 +0900
-categories: jekyll update
+categories: SpringBoot
 ---
 
+### 개요
+- 이번 문서에서는 SpringBoot의 특징에 대해 알아보겠습니다.
 
 - POJO ? 
     - Plain Old Java Object라는 뜻으로 “평범한 옛날 자바 객체”를 말한다. 
-
 - Spring Framework의 장점 ? 
     - 과거에는 Java로 Web Application을 설계하기 위해 Servlet Class를 상속받아 구현해야 함. (servlet Class는 POJO가 아님) 
     - Spring Framework는 Servlet Class를 직접 작성하지 않고, POJO만으로 Web Application을 구축할 수 있다는 장점이 있음.
     - Servlet Class는 모두 추상화되어 라이브러리에 포함되어 있으며, 개발자는 간단하게 Servlet Class를 설정할 수 있다.
-
 - Spring Framework의 특징 ? 
     1. Container
-	2. IoC / DI      (Inversion of Control / Dependency Injection) 
-	3. AOP           (Aspect Oriented Programming) 
-	4. PSA           (Portable Service Abstraction) 
+    2. IoC / DI      (Inversion of Control / Dependency Injection) 
+    3. AOP           (Aspect Oriented Programming) 
+    4. PSA           (Portable Service Abstraction) 
 
 1. Container
     - 컨테이너는 특정 객체의 생성과 관리를 담당하며 객체 운영에 필요한 다양한 기능을 제공함. 
@@ -65,15 +65,15 @@ categories: jekyll update
 
 
     * POJO를 사용한 기본 예제 
-
+    
       ![image](https://user-images.githubusercontent.com/12456375/41199480-d30dc698-6ccd-11e8-9e02-b43bd145c765.png)
-
+    
       ![image](https://user-images.githubusercontent.com/12456375/41199515-7dfbbede-6cce-11e8-92cd-bc05821ed70a.png)
-
+    
     * AOP 구현 예제 
-
+    
       ![image](https://user-images.githubusercontent.com/12456375/41199483-e3547164-6ccd-11e8-9b56-ebfc14a3eb37.png)
-
+    
       ![image](https://user-images.githubusercontent.com/12456375/41199517-8084030a-6cce-11e8-9fb0-0fa774a87332.png)
 
 

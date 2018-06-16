@@ -30,7 +30,7 @@ categories: linux
   	./test.out
   ````
 6. shell은 loader 함수를 수행하고, test.out에 포함된 code와 data 정보들을 메모리에 로딩한다.
-  메모리 로딩이 완료되면 program을 시작할 수 있도록 준비한다.
+    메모리 로딩이 완료되면 program을 시작할 수 있도록 준비한다.
 
 ![image](https://user-images.githubusercontent.com/12456375/41199973-026fd576-6cd7-11e8-9c1c-30e20038e0c8.png)
 
@@ -77,8 +77,8 @@ categories: linux
 - Linking 과정에서 아래 2가지의 작업이 수행된다.
     1. Symbol Resolution (Symbol 해석)
       * 먼저 Linker(ld)는 입력된 Object File을 검색하면서 아래 3가지 Group으로 재분류하는 과정을 반복한다. (초기에 모든 그룹은 비어있다.) 
-        *O-group
-            - 재배치 가능한 오브젝트 파일
+          * O-group
+              * 재배치 가능한 오브젝트 파일
         * U -group
           - 해석되지 않은 심볼
              - 아카이브 파일의 U-gruop이 비어있지 않는다면 에러가 발생한다. 
