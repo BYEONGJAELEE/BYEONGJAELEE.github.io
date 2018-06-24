@@ -86,8 +86,8 @@ categories: Network
   @ 포스팅 내용 참고 주소
   - http://www.escotal.com/osilayer.html
   - https://www.joinc.co.kr/w/man/12/switch
-  - <http://kimseunghyun76.tistory.com/386>
-- <http://sarc.io/index.php/forum/tips/553-l4-vs-l7>
+  - http://kimseunghyun76.tistory.com/386
+- http://sarc.io/index.php/forum/tips/553-l4-vs-l7
 - http://freeism.co.kr/tc/657
 
 
