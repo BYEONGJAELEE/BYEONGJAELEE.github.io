@@ -10,15 +10,8 @@ categories: Android
 
   - PLT와 GOT는 Dynamic Linking 방식으로 컴파일 된 파일에서 사용되는 Table이다.
 
-    ---
 
-    * Linking이란 ?
-        * 따로 따로 작성한 몇 가지의 목적 프로그램 또는 목적 모듈을 결합하여 하나의 목적 프로그램(로드 모듈)으로 만드는 것을 링킹(linking)이라 한다.  
 
-      - Dynamic Linking 이란 ?
-          - 
-
----
 
 ### Linking ?
 
@@ -35,6 +28,8 @@ Linking 방법은 크게 2가지 방법으로 나뉜다.
 2. Dynamic Linking
    - 프로그램을 실행하는 중에 다른 목적 프로그램이 필요해졌을 때, 동적 링커(Dynamic Linker)에 의해 그 프로그램과 연결하는 것을 말한다.
    - 쉽게 말해서, 내 소스코드에 포함되지 않은 함수를 동적으로 참조할 수 있는 Linking 방법이다.  
+
+
 
 ### PLT (Procedure Linkage Table)
 
