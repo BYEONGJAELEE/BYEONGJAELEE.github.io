@@ -34,12 +34,13 @@ categories: SpringBoot
         * 트랜잭션 관리나 메시지 기반의 다국어 처리 등 다양한 기능 지원.
     
     - bean에 등록된 모든 객체는 singleton으로 관리되고 있다.
-    
-    ![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
+
+![image](https://user-images.githubusercontent.com/12456375/41198125-0609a0c4-6cad-11e8-8ad7-789e6e882520.png)
 
 
 
 #### 2. IoC / DI (Inversion Of Control / Dependency Injection)
+
     - 비즈니스 로직을 개발할 때 신경써야 할 부분이 낮은 결합도와 높은 응집도이다.
       Spring Framework는 IoC란 방법을 통해 낮은 결합도를 유지한다. 
     
@@ -66,13 +67,13 @@ categories: SpringBoot
 
 
     * POJO를 사용한 기본 예제 
-    
+
 ![image](https://user-images.githubusercontent.com/12456375/41199480-d30dc698-6ccd-11e8-9e02-b43bd145c765.png)
     
 ![image](https://user-images.githubusercontent.com/12456375/41199515-7dfbbede-6cce-11e8-92cd-bc05821ed70a.png)
     
     * AOP 구현 예제 
-    
+
 ![image](https://user-images.githubusercontent.com/12456375/41199483-e3547164-6ccd-11e8-9b56-ebfc14a3eb37.png)
     
 ![image](https://user-images.githubusercontent.com/12456375/41199517-8084030a-6cce-11e8-9fb0-0fa774a87332.png)
