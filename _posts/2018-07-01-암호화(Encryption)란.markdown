@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Network] L4 swith vs L7 switch"
+title:  "[Security] 암호화(Encryption)란? "
 date:   2018-07-01 17:47:25 +0900
 categories: Security
 ---
